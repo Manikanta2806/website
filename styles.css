@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Colorful gradient background */
+    color: #333;
+    font-size: 16px; /* Adjusted font size for readability */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px; /* Decreased font size for navigation */
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 2.5em; /* Reduced header font size */
+}
+
+header p {
+    font-size: 1.2em; /* Reduced size for better readability */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.2em; /* Reduced font size for section titles */
+    color: #333;
+    text-align: center;
+}
+
+.link-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link-gallery article {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-gallery article h3 {
+    font-size: 1.4em; /* Adjusted size for article titles */
+    color: #ff7e5f;
+}
+
+.cartoon-link {
+    text-decoration: none;
+    color: #ff7e5f;
+    font-weight: bold;
+}
+
+.cartoon-link:hover {
+    color: #feb47b;
+    text-decoration: underline;
+}
+
+/* Special Offer Section */
+#special-offer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.offer-box {
+    background-color: #ff7e5f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.offer-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.offer-link:hover {
+    color: #feb47b;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em; /* Reduced footer font size */
+}
+
+footer a {
+    color: #feb47b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff7e5f;
+}
